@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 text-white px-6 py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-xl font-bold">NIMSA</a>
+      <ul class="flex space-x-4">
+        <li><a href="#aboutt" class="hover:text-gray-400">ABOUT</a></li>
+        <li><a href="#about" class="hover:text-gray-400">WHAT WE DO</a></li>
+        <li><a href="#menu" class="hover:text-gray-400">OUR SERVICES</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">CONTACT US</a></li>
+        <li class="relative">
+          <a href="#" class="hover:text-gray-400">APPLY NOW</a>
+          <ul class="absolute text-white rounded-lg mt-2 py-2 hidden">
+            <li><a href="#">PARTICIPANT</a></li>
+            <li><a href="#">CONTRIBUTOR</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="flex justify-center items-center min-h-screen">
+        <div class="w-full max-w-xs">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter your password">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                        Confirm Password
+                    </label>
+                    <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter your password">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Register
+                    </button>
+                </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white px-6 py-4">
+      <div class="container mx-auto flex justify-center">
+        <p>&copy; 2023 NIMSA Name. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>
